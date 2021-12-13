@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+        <main>
+            <h1 class="t">Temperature Conversion Into Fahrenheit and Celsius</h1>
+            <form id="temperatureForm">
+                <label for="degreeInput">Degree</label>
+                <input type="number" name="degreeInput" id="degreeInput">
+                
+                <label>Converting to:</label>
+                <select id="conversionType">
+                    <option value="Fahrenheit">Fahrenheit</option>
+                    <option value="Celsius">Celsius</option>
+                </select>
+
+                <br>
+                <br>
+                <!--Readonly mean you can not add any value-->
+                <label for="answer">answer</label>
+                <input type="number" name="answer" id="answer" readonly>
+
+                <br>
+                <br>
+                <input type="submit">
+            </form>
+        </main>
+    </body>
+
+    <script src="script.js"></script>
+</html>
